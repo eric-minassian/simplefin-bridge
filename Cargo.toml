@@ -1,0 +1,12 @@
+[package]
+name = "simplefin-bridge"
+version = "0.0.1"
+authors = ["Eric Minassian <eric@ericminassian.com>"]
+description = "Simplefin Bridge SDK"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/eric-minassian/simplefin-bridge"
+keywords = ["simplefin", "bridge", "sdk"]
+edition = "2021"
+
+[dependencies]
