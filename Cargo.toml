@@ -2,7 +2,7 @@
 name = "simplefin-bridge"
 version = "0.0.1"
 authors = ["Eric Minassian <eric@ericminassian.com>"]
-description = "Simplefin Bridge SDK"
+description = "SimpleFIN Bridge SDK"
 license = "MIT"
 readme = "README.md"
 repository = "https://github.com/eric-minassian/simplefin-bridge"
@@ -10,3 +10,8 @@ keywords = ["simplefin", "bridge", "sdk"]
 edition = "2021"
 
 [dependencies]
+base64 = "0.22.1"
+reqwest = { version = "0.12.8", features = ["blocking", "json"] }
+serde = { version = "1.0.213", features = ["derive"] }
+serde_json = "1.0.132"
+url = "2.5.2"
